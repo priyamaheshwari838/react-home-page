@@ -1,0 +1,182 @@
+/* .container{max-width: 1280px; margin: 0px auto;} */
+
+
+.App-footer{text-align: center;padding: 50px 0px; margin: 0px; border-top: 8px solid #D29A5A; }
+.f-logo{width:447px; height: auto; margin: 0px auto; object-fit: contain;}
+
+.help-inner{display: flex; justify-content: space-between; flex-wrap: wrap; margin: 50px 0px 30px;}
+.help-on{display: flex; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap; justify-content: center;}
+.help-on img{margin-right:15px; object-fit: contain;}
+.help-on .left-sec .uppercase-text{font-size: 24px; color: #D29A5A; margin:0px 0px 15px;}
+.help-on .left-sec .small-text{color: #fff; font-size: 18px; margin: 0px;}
+
+.signup-section{background: url(../public/images/promotion.png)no-repeat; background-size: cover; height:400px;position: relative;}
+.signup-inner .m-heading{font-size: 36px; text-decoration: underline; color: #fff; margin: 0px 0px 35px; font-weight: 400;}
+.signup-inner p{color: #fff; font-size: 18px; margin: 0px 0px 35px;}
+.form-control{background: #ffffff1a;color: #fff; font-size: 16px; border: 1px solid #fff; border-radius: 0px; padding:10px;max-width: 500px; width: 100%;}
+.form-control::placeholder{color: #fff;}
+.form-control:focus{border: 1px solid #fff; border-radius: 0px;}
+.button-ty{background: #D29A5A; color: #fff; text-align: center; width: 180px; padding: 10px; border: 0px; margin-left: 20px !important; height: 46px;}
+.signup-mai{display: flex; flex-direction: column; margin-top: auto; height: 100%; }
+.signup-inner{width: 100%;display: flex; flex-direction: column; margin-top: auto; padding-bottom: 70px;}
+.signup-section .container{height: 100%;}
+
+.cheff-section{background: url(../public/images/pantree.png)no-repeat left; background-size: auto; background-position: left -75px; padding-bottom:30px;}
+.cheff-section .inner-sec-cheff{ max-width:575px; padding-top:150px; margin-bottom: 70px;}
+.cheff-section .inner-sec-cheff h2{ color: #D29A5A; font-size: 38px; margin:0px 0px 10px;}
+.cheff-section .inner-sec-cheff p{color: #fff; font-size: 18px; margin: 0px;}
+.line{height: 4px; background:#D29A5A ; margin-bottom: 30px;}
+
+.slider-contain{text-align: center; margin-bottom: 30px;}
+.slider-contain .product{width: 235px; height: 235px;object-fit: cover; border-radius: 50%;margin:0px auto 5px;}
+.slider-contain h5{ color: #D29A5A;  text-transform: uppercase; margin: 0px 0px 15px; font-size: 18px; font-weight: 400;}
+.slider-contain p{color: #fff; font-size: 14px; margin: 0px;}
+.slider-contain p span{margin-right: 5px; text-decoration: line-through;}
+
+.swiper-button-next{background: url(../public/images/right-arrow.png)no-repeat;}
+.swiper-button-next svg{display: none !important;}
+.swiper-button-prev{display: none !important;}
+
+.carousel .thumbs, 
+.carousel.carousel-slider .control-arrow,
+.carousel .carousel-status{display: none !important;}
+
+.home-banner{height: 600px;position: relative;}
+.banner-s {position: relative; height: 600px;}
+.banner-s .banner-image{width: 100%;object-fit: cover;height: 100%;}
+.banner-s .meet-btn{width: 359px;position: absolute;transition: .3s; left:0;right:0;margin: 0px auto; bottom: 100px; border: 3px solid #fff; color: #fff; text-align: center; font-size: 24px;display: block; text-decoration: none; padding: 15px;}
+.banner-s .meet-btn:hover{background: #D29A5A; border-color: #000; }
+
+.offcanvas{background: #130F0CE5; max-width: 345px; color: #fff; padding: 0px;}
+.offcanvas .offcanvas-header{flex-wrap: wrap; flex-direction: column-reverse; align-items: start;}
+.offcanvas .offcanvas-header .menu-logo{max-width: 330px; width: 100%; height: 100px;}
+.offcanvas ul{list-style: none; margin: 0px; padding: 15px 20px;}
+.offcanvas ul li .links{font-size: 20px;display: flex;margin-bottom: 15px; color: #fff; text-decoration: none; text-transform: uppercase;}
+.offcanvas ul li .links:hover{color: #D29A5A;}
+
+.btn-close{color: #fff; background: url(../public/images/Close_round.svg)no-repeat; opacity: 1; margin: 0px;}
+.offcanvas .offcanvas-body{padding: 0px;display: flex; flex-wrap: wrap;}
+.offcanvas .offcanvas-body .menu-footer {margin-top: auto;width: 100%;}
+.offcanvas .offcanvas-body .menu-footer p{padding: 10px 20px 20px;margin: 0px;border-bottom:2px solid #fff ; color: #fff; text-transform: uppercase; font-size:16px;}
+.offcanvas .offcanvas-body .menu-footer p a{color: #D29A5A; margin-left: 10px;}
+.offcanvas .offcanvas-body .wishlist-sec{padding: 20px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.offcanvas .offcanvas-body .wishlist-sec .cart{color: #fff;text-decoration: none; text-transform: uppercase; font-size: 20px; display: flex; align-items: center;}
+.offcanvas .offcanvas-body .wishlist-sec .cart img{margin-right: 10px;}
+
+.menu-toggle{width: 150px;display: flex;flex-direction: column;justify-content: center; background: #130F0CCC;border-right: 3px solid #D29A5A; position: absolute;z-index: 1; height: 100%;}
+.menu-toggle .menu-logo{width: 255px; rotate: -90deg; margin-left: -70px}
+.menu-toggle .menu-toogle-hs{position: absolute;cursor: pointer; top: 20px; left: 30%; margin: 0px auto;}
+
+.online-section{background: #fff; padding: 50px 0px 10px;}
+.online-section .oliner-slider{background: url(../public/images/deal_1.png)no-repeat top; background-size: contain;}
+.online-section .online-slider-im{min-height: 280px; display: flex; align-items: center;}
+.online-section .oliner-slider .heading{font-size: 30px; margin: 0px 0px 10px; color: #130F0C; }
+.online-slider-im .inner-section{max-width: 550px; width: 100%;margin: 0px auto;}
+.online-slider-im .inner-section p{font-size: 22px; color:#130F0C; margin-bottom:45px;}
+.shop-now{max-width: 300px; margin: 0px auto 30px; font-size: 22px; color: #130F0C; border: 3px solid #130F0C; padding: 20px; display: block; text-decoration: none;}
+.lines{width: 78px;height: 4px; background: #130F0C; display: block;margin: 40px auto 0px;}
+.online-section .carousel .control-dots{margin: 0;}
+.online-section .carousel .control-dots .dot{width: 12px; height: 12px; box-shadow: none; border: 1px solid #130F0C;}
+.online-section .carousel .control-dots .dot.selected{background: #A7A7A7; border-color: #A7A7A7;}
+
+.slick-prev:before, .slick-next:before{display: none !important;}
+.slick-arrow{width: 70px !important;height: 70px !important;top: 40%;}
+.slick-prev{background: url(../public/images/left-arrow.png)no-repeat !important; background-size: contain !important;}
+.slick-next{background: url(../public/images/right-arrow.png)no-repeat !important; background-size: contain !important;}
+.cheff-section  .slick-prev {
+  left: -60px;
+}
+.cheff-section  .slick-next {
+  right: -60px;
+}
+
+.slick-arrow.slick-disabled{opacity: .5;}
+.btn-close:focus{box-shadow: none;}
+
+
+
+
+/* ------------------------ Responsive Media ------------------------------- */
+
+@media(max-width:1199px){
+  .menu-toggle {width: 114px;}
+  .cheff-section .inner-sec-cheff h2{font-size: 30px;}
+  .cheff-section .inner-sec-cheff p{font-size: 16px;}
+  .line{margin-bottom: 20px;}
+  .cheff-section .inner-sec-cheff{margin-bottom: 45px;}
+  .slider-contain .product {width: 175px; height: 175px;}
+  .slider-contain h5{font-size: 16px;}
+  .online-section .oliner-slider .heading {font-size: 26px;}
+  .online-slider-im .inner-section p { font-size: 19px;}
+  .shop-now { max-width: 255px;padding: 12px;}
+  .online-section .online-slider-im {  min-height: 230px;}
+  .help-on .left-sec .uppercase-text {font-size: 20px;margin-bottom: 10px;}
+  .help-on img{width: 25px;height: 25px;}
+  .help-on .left-sec .small-text{font-size: 16px;}
+  .f-logo {width: 350px;}
+  .App-footer{padding: 35px 0px;}
+  .banner-s .meet-btn {width: 295px; font-size: 22px;padding: 12px;}
+  .signup-inner .m-heading { font-size: 30px;}
+  .slick-arrow{width: 60px !important;height: 60px !important;}
+  .cheff-section .slick-prev { left: -25px;}
+  .cheff-section .slick-next { right: -25px;}
+
+}
+
+
+@media (max-width: 767px) {
+  .container{max-width: 100%;}
+  .offcanvas ul li .links { font-size: 17px;}
+  .signup-inner .m-heading {font-size: 22px;}
+  .cheff-section .slick-prev { left: -15px;}
+  .cheff-section .slick-next { right: -15px;}
+
+}
+
+@media(max-width: 576px){
+  .menu-toggle { width: 100%;height: auto;}
+  .menu-toggle .menu-logo{rotate: 0deg; margin: 0px auto;}
+  .menu-toggle .menu-toogle-hs{left: 10px;transform: translateY(-50%);top: 50%;}
+  .offcanvas .offcanvas-body .wishlist-sec .cart{font-size: 16px;}
+  .offcanvas .offcanvas-header .menu-logo { max-width: 236px; height: auto;}
+  .button-ty{margin-left: 10px !important; width: 130px;}
+  .online-slider-im .inner-section p {font-size: 16px;}
+  .online-section .oliner-slider .heading { font-size: 22px;}
+  .cheff-section .inner-sec-cheff h2 { font-size: 22px;}
+  .cheff-section .inner-sec-cheff{padding-top: 80px;}
+  .f-logo {width: 254px;}
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
